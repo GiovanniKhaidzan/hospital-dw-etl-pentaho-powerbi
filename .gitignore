@@ -1,0 +1,15 @@
+# Pentaho
+*.log
+*.bak
+.kettle/
+
+# Power BI temporary files
+~$*.pbix
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+*.swp

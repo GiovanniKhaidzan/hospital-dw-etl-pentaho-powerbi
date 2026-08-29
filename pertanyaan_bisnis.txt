@@ -1,0 +1,34 @@
+1. Operasional Pasien
+
+Berapa banyak kunjungan pasien yang terjadi dan bagaimana pola kunjungannya?
+Dilihat berdasarkan waktu, poli, dokter, dan karakteristik pasien
+
+2. Kinerja Poli dan Dokter
+
+Poli mana yang paling banyak menangani pasien?
+Dokter mana yang menangani kunjungan paling banyak?
+Bagaimana tren kunjungan masing-masing poli dari waktu ke waktu?
+
+3. Diagnosis
+
+Penyakit apa yang paling sering ditemukan pada pasien?
+Bagaimana distribusi diagnosis berdasarkan poli dan periode waktu?
+
+4. Laboratorium
+
+Berapa banyak pemeriksaan laboratorium yang dilakukan?
+Pemeriksaan apa yang paling sering dilakukan?
+Bagaimana hasil pemeriksaan berdasarkan status hasil?
+
+5. Obat
+
+Obat apa yang paling banyak diresepkan?
+Berapa jumlah obat yang diresepkan?
+Bagaimana penggunaan obat berdasarkan periode waktu dan kategori obat?
+
+6. Pendapatan
+
+Berapa pendapatan rumah sakit?
+Layanan apa yang memberikan pendapatan terbesar?
+Bagaimana pendapatan berdasarkan poli dan periode waktu?
+Metode pembayaran apa yang paling banyak digunakan?
