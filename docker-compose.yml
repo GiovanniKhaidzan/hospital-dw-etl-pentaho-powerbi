@@ -1,0 +1,20 @@
+services:
+  postgres:
+    image: postgres:15
+    container_name: hospital_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      # Format: "PORT_DI_LAPTOP:PORT_DI_DALAM_CONTAINER"
+      # Pakai 5433 di laptop biar nggak bentrok sama Postgres lokal kamu yang di 5432
+      - "5433:5432"
+    volumes:
+      # Volume ini bikin data Postgres TETAP ADA walau container dimatikan/dihapus
+      - hospital_pg_data:/var/lib/postgresql/data
+      # Baris di bawah ini otomatis jalanin schema.sql saat container PERTAMA KALI dibuat
+      - ./schema.sql:/docker-entrypoint-initdb.d/schema.sql
+
+volumes:
+  hospital_pg_data:
